@@ -7,7 +7,7 @@ A simple To-Do list app built with HTML, CSS, and Vanilla JavaScript.
 
 ## Live Demo | رابط التجربة
 - Demo: (Add your GitHub Pages link here)
-  - مثال: https://ali-jarad.github.io/mini-todo/
+  - مثال:https://ali-jarad.github.io/mini-to-do/
 
 ---
 
