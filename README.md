@@ -1,36 +1,31 @@
-# Mini To-Do App | تطبيق مهام بسيط
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini To-Do </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Mini To-Do</h1>
+        <form id="todo-form" class="row">
+            <input type="text" id="todo-input" placeholder="add a task...."  autocomplete="off">
+            <button type="submit">Add </button>
+        </form>
+        <div class="filters">
+  <button type="button" class="filter-btn" data-filter="all">All</button>
+  <button type="button" class="filter-btn" data-filter="active">Active</button>
+  <button type="button" class="filter-btn" data-filter="completed">Completed</button>
+  <button type="button" class="clear-btn" id="clearCompleted">Clear Completed</button>
+</div>
 
-A simple To-Do list app built with HTML, CSS, and Vanilla JavaScript.  
-تطبيق مهام بسيط مبني باستخدام HTML و CSS و JavaScript بدون مكتبات.
+        <ul id="todo-list" class="list"></ul>
 
----
+       
+    </main>
+    <script src="script.js"></script>
 
-## Live Demo | رابط التجربة
-- Demo: (Add your GitHub Pages link here)
-  - مثال:https://ali-jarad.github.io/mini-to-do/
+</body>
 
----
-
-## Features | المميزات
-- Add tasks | إضافة مهام
-- Delete tasks | حذف المهام
-- Prevent empty tasks | منع إضافة مهام فارغة
-- Clean and responsive UI | واجهة بسيطة ومتجاوبة
-
----
-
-## Tech Stack | التقنيات المستخدمة
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-
----
-
-## Project Structure | هيكلة المشروع
-```text
-mini-todo/
-  index.html
-  style.css
-  script.js
-  README.md
->
+</html>
