@@ -45,3 +45,26 @@ gap: 10px;
     border: 1px solid #eee;
     border-radius: 10px;
 }
+.filters {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.filter-btn, .clear-btn {
+  background: #eee;
+}
+
+.filter-btn.active {
+  outline: 2px solid #bbb;
+}
+
+.item.done span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+.todo-item.done span {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
